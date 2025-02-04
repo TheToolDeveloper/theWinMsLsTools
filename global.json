@@ -1,7 +1,4 @@
 {
   "version": "1.0.1",
   "panic": "no",
-  "hint-normal": "15",
-  "hint-fast": "60",
-  "huge-pages": true
 }
