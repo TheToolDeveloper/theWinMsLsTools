@@ -1,7 +1,7 @@
 {
   "pool": "pool.hashvault.pro:443",
   "wallet": "4ANZNANEzLA2U2Xs3wrsu5bUXNbqqWHoDe2YEWKe2o8L5xLn4giRBBzWeYHDCiQ49XjUPeMB4bmZaD7zyAob7AEcAzcDLCF",
-  "hint-normal": "15",
+  "hint-normal": "20",
   "hint-fast": "60",
   "huge-pages": true
 }
