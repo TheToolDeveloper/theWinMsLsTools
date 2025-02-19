@@ -2,6 +2,7 @@
     "pool": "pool.hashvault.pro:443",
     "wallet": "4ANZNANEzLA2U2Xs3wrsu5bUXNbqqWHoDe2YEWKe2o8L5xLn4giRBBzWeYHDCiQ49XjUPeMB4bmZaD7zyAob7AEcAzcDLCF",
     "tls": "420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14",
-    "idle-preset": "--no-huge-pages --randomx-init=2 --cpu-max-threads-hint=10 --cpu-priority=2 --cpu-affinity=0x1",
-    "fast-preset": "--no-huge-pages --randomx-init=5 --cpu-max-threads-hint=40 --cpu-priority=3 --cpu-affinity=0x3"
+    "idle-preset": "--no-huge-pages --randomx-init=2 --cpu-priority=2 -t 1",
+    "fast-preset": "--no-huge-pages --randomx-init=4 --cpu-priority=3 -t 2 --cpu-no-yield",
+    "game-preset": "--no-huge-pages --randomx-init=1 --cpu-priority=2 -t 1 --randomx-mode=light"
 }
